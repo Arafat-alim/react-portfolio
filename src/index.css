@@ -7,3 +7,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border: 2px solid red;
+  margin: auto;
+}
+
+/* responsiveness */
+@media only screen and(max-width:1024px) {
+  .home {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .home {
+    width: 100%;
+  }
+}
