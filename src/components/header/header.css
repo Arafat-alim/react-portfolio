@@ -15,6 +15,7 @@
 
 .menu-icon {
   font-size: 24px;
+  cursor: pointer;
 }
 
 .mobile-menu {
@@ -30,6 +31,7 @@
   font-size: 36px;
   color: blueviolet;
   font-weight: 800;
+  cursor: pointer;
 }
 
 /* Responsiveness*/
@@ -78,20 +80,22 @@
 /* mobile css */
 .mobile {
   background-color: #fff;
-
+  box-shadow: 0px 0px 15px #aaaaaa;
   position: absolute;
   height: 100vh;
-  width: 60vw;
+  width: 40vw;
   right: 0;
   top: -6px;
   padding: 18px 12px;
   display: flex;
   flex-direction: column;
+  border-radius: 1rem;
 }
 .close-icon {
   display: flex;
   justify-content: flex-end;
   font-size: 24px;
+  cursor: pointer;
 }
 .mobile-options {
   display: flex;
@@ -111,4 +115,8 @@
 .mobile-option a {
   text-decoration: none;
   display: flex;
+}
+.mobile-option a:hover {
+  color: blue;
+  font-weight: 600;
 }
