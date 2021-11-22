@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Mobile from "./mobile/Mobile";
 import Web from "./web/Web";
 import "./header.css";
-import "../icons/apps-grid.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
