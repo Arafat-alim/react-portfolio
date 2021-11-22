@@ -32,7 +32,7 @@
   font-weight: 800;
 }
 
-/* media query */
+/* Responsiveness*/
 
 @media only screen and (max-width: 720px) {
   .mobile-menu {
@@ -44,4 +44,33 @@
   .logo {
     font-size: 24px;
   }
+}
+
+/* WEb cSS */
+.web {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.web-option {
+  font-size: 20px;
+  margin: 1rem;
+  font-weight: 700;
+}
+
+.web-option a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.web-option:last-child {
+  margin-right: 0;
+}
+
+.option-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
 }
