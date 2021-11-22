@@ -1,11 +1,7 @@
 import React from "react";
 
 function Body() {
-  return (
-    <div>
-      <h1>Body</h1>
-    </div>
-  );
+  return <div>Body</div>;
 }
 
 export default Body;
