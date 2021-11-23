@@ -59,7 +59,7 @@
   padding: 8px 0;
 }
 .project-image {
-  width: 40%;
+  width: auto;
   height: 500px;
 }
 .project-info {
