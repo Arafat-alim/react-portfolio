@@ -24,3 +24,21 @@
 .coding-boy {
   height: 550px;
 }
+
+@media only screen and (max-width: 720px) {
+  .about-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .coding-boy {
+    height: 280px;
+  }
+  .about-info {
+    font-size: 20px;
+    /* margin: 0 24px; */
+  }
+  .info-name {
+    font-size: 26px;
+  }
+}

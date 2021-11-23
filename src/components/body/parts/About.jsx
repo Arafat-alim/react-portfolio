@@ -1,4 +1,5 @@
 import React from "react";
+import SocialContact from "../../common/SocialContact";
 
 const About = () => {
   return (
@@ -18,7 +19,9 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="about-bottom"></div>
+      <div className="about-bottom">
+        <SocialContact />
+      </div>
     </div>
   );
 };
