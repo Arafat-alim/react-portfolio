@@ -136,6 +136,16 @@
 }
 
 /* skills part */
-.skills {
-  background-color: blue;
+
+.skill-card {
+  width: max-content;
+  padding: 8px 16px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: aqua;
+  margin: 6px;
 }

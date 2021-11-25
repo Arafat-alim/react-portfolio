@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
             <a
               className="project-link"
               href={project.demoLink}
-              rel="noreferrence"
+              rel="noreferrer"
               target="_blank"
             >
               <div className="link-button">
@@ -24,7 +24,7 @@ const ProjectCard = ({ project }) => {
             </a>
           )}
           {project.githubLink && (
-            <a href={project.githubLink} rel="noreferrence" target="_blank">
+            <a href={project.githubLink} rel="noreferrer" target="_blank">
               <div className="link-button">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
