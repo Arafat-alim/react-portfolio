@@ -4,9 +4,9 @@ import SocialContact from "../../common/SocialContact";
 const Contact = () => {
   return (
     <div className="contact">
-      <div className="section-title">Contacts</div>
-      <div className="contact-left">
-        <div className="contact-container">
+      <label className="section-title">Contacts</label>
+      <div className="contact-container">
+        <div className="contact-left">
           <p>Want to get Touch? Contact me on these Platform</p>
           <SocialContact />
         </div>
