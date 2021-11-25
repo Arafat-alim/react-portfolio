@@ -4,7 +4,6 @@ const WorkCard = ({ item }) => {
   console.log(item);
   return (
     <div className="work-card">
-      <img src={item.companyLogo} alt="" />
       <div className="work-info">
         <label className="company-name">{item.company}</label>
         <div className="work-dates">
@@ -14,6 +13,7 @@ const WorkCard = ({ item }) => {
           <p>{item.workDes}</p>
         </div>
       </div>
+      <img src={item.companyLogo} alt="" className="work-logo" />
     </div>
   );
 };
