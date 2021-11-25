@@ -60,7 +60,7 @@
 }
 .project-image {
   width: auto;
-  height: 500px;
+  height: 300px;
 }
 .project-info {
   margin-right: 20px;
@@ -72,7 +72,7 @@
 }
 .project-tags {
   display: flex;
-  max-width: 60%;
+  max-width: 80%;
   flex-wrap: wrap;
 }
 .tag {
@@ -120,7 +120,9 @@
 
 @media only screen and (max-width: 720px) {
   .project-image {
-    width: 70%;
+    width: 100%;
+    height: 200px;
+    margin: 10px;
   }
   .project-card {
     display: flex;
