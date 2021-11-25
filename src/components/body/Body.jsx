@@ -5,6 +5,7 @@ import About from "./parts/About";
 import Contact from "./parts/Contact";
 import Projects from "./parts/Projects";
 import Skills from "./parts/Skills";
+import Works from "./parts/Works";
 
 function Body() {
   return (
@@ -19,6 +20,10 @@ function Body() {
       </section>
       <section id="skills">
         <Skills />
+        <Seperator />
+      </section>
+      <section id="works">
+        <Works />
         <Seperator />
       </section>
       <section id="contact">
