@@ -1,7 +1,6 @@
 import React from "react";
 
 const SkillsCard = ({ skill }) => {
-  console.log(skill);
   return (
     <div className="skill-card">
       <div className="skill-icon">{skill.icon}</div>
