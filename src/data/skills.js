@@ -63,6 +63,7 @@ export const skillsData = [
           <img
             src="https://cdn-icons-png.flaticon.com/512/3393/3393920.png"
             alt="react"
+            className="skill-icon-size"
           />
         ),
       },
@@ -72,6 +73,7 @@ export const skillsData = [
           <img
             src="https://cdn-icons-png.flaticon.com/512/3393/3393920.png"
             alt="mySql"
+            className="skill-icon-size"
           />
         ),
       },
@@ -81,6 +83,7 @@ export const skillsData = [
           <img
             src="https://cdn-icons-png.flaticon.com/512/3393/3393920.png"
             alt="mySql"
+            className="skill-icon-size"
           />
         ),
       },
