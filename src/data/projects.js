@@ -33,8 +33,8 @@ export const projects = [
     title: "GitHub Profile Search",
     desc: "📌 A Web Application, where users can search any Github Profile using a username. 📌 Feature: It can help us to fetch Full Name, Followers, Followings, Bio, Latest 5 Repositories, and User Profile Pictures.",
     tags: ["HTML5", "CSS3", "Javascript", "ReactJs", "Axios", "ParticleJs"],
-    demoLink: "https://arafat-crypto-app.netlify.app/",
-    githubLink: "https://github.com/Arafat-alim/crypto-app",
+    demoLink: "https://arafat-alim.github.io/github-profile-search/",
+    githubLink: "https://github.com/Arafat-alim/github-profile-search",
     image:
       "https://res.cloudinary.com/cocoder/image/upload/c_scale,h_812,w_1348/v1637952851/Github-Profile-Search_odinqk.png",
   },
@@ -51,8 +51,10 @@ export const projects = [
       "AJAX",
       "DataTable Plugin",
     ],
-    demoLink: "https://arafat-crypto-app.netlify.app/",
-    githubLink: "https://github.com/Arafat-alim/crypto-app",
+    demoLink:
+      "https://arafat-alim.github.io/JavaScriptProjects/Projects/3.%20CovidStats/html/index.html",
+    githubLink:
+      "https://github.com/Arafat-alim/JavaScriptProjects/tree/main/Projects/3.%20CovidStats",
     image:
       "https://res.cloudinary.com/cocoder/image/upload/v1637941366/Covid-Statistics_1_bcu1d2.png",
   },
@@ -61,8 +63,8 @@ export const projects = [
     title: "Amazon Product Page",
     desc: "📌 A Web Application, named Amazon Product Page. 📌 Feature: The user can select Product color and can see the watch features like Heart Beat Rate and Timer.",
     tags: ["HTML5", "CSS", "ReactJs", "Javascript"],
-    demoLink: "https://arafat-crypto-app.netlify.app/",
-    githubLink: "https://github.com/Arafat-alim/crypto-app",
+    demoLink: "https://arafat-alim.github.io/ReactProject-AmazonProductPage/",
+    githubLink: "https://github.com/Arafat-alim/ReactProject-AmazonProductPage",
     image:
       "https://res.cloudinary.com/cocoder/image/upload/c_scale,h_812,w_1348/v1637952989/Amazon-Product-Page_gubtxe.png",
   },
