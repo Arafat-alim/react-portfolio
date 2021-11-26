@@ -4,7 +4,8 @@ export const workData = [
     designation: "Full Stack MERN",
     dateJoining: "01.01.2021",
     dateEnd: "Present",
-    companyLogo: "https://cdn-icons-png.flaticon.com/512/1532/1532495.png",
+    companyLogo:
+      "https://res.cloudinary.com/cocoder/image/upload/v1637960496/icon_180x180-b7bd51db7de8a010a275d90024d91ef9_ozwncx.png",
     workDes:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam blanditiis dolorum magni harum repellat, ex veritatis! Saepe corporis numquam beatae?",
   },
