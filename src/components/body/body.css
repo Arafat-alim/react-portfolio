@@ -231,12 +231,12 @@
 }
 
 .work-desc {
-  text-align: left;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
+  text-align: -webkit-auto;
+  /* display: -webkit-box;
+  -webkit-line-clamp: 10;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: ellipsis; */
   max-width: 80%;
 }
 
