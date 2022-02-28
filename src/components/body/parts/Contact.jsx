@@ -11,7 +11,8 @@ const Contact = () => {
           <SocialContact />
         </div>
         <div className="download">
-          <a href={require("../../../assets/Resume.pdf").default} download>
+          //<a href={require("../../../assets/Resume.pdf").default} download>
+            <a href="#"download>
             <img
               src="https://cdn-icons-png.flaticon.com/512/724/724933.png"
               alt="download-logo"
