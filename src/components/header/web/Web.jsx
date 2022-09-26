@@ -48,7 +48,7 @@ function Web() {
           href="https://arafat-alim.github.io/static-repository/"
           className="option-icon"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           <img
             src="https://cdn-icons-png.flaticon.com/512/2048/2048844.png"
