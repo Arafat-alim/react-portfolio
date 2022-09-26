@@ -30,7 +30,7 @@ const ProjectCard = ({ project }) => {
                   src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                   alt=""
                 />
-                GitHub Links
+                GitHub Link
               </div>
             </a>
           )}
