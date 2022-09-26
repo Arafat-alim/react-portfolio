@@ -1,6 +1,6 @@
 export const workData = [
   {
-    company: "Newton's School",
+    company: "Newton's School - Internship Web Development",
     designation: "Full Stack MERN",
     dateJoining: "01.01.2021",
     dateEnd: "15.11.2021",
@@ -10,6 +10,8 @@ export const workData = [
      • Technical Stack Learned: HTML, CSS, Javascript, Bootstrap, ReactJS, Redux, NodeJS, Firebase, Express, MongoDB, MySQL. \n
     • Worked on various Projects like Drawing-App, Github Profile Search, Covid19-Tracker, CryptoVerse . \n
     • Participated in a couple of Hackathons organized by Newton School (2021).`,
+    links:
+      "https://my.newtonschool.co/course/3fs8i8lyhg/certificate/0ilw5p9ovz3y/verify/",
   },
   // {
   //   company: "Google",
@@ -29,13 +31,13 @@ export const workData = [
   //   workDes:
   //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam blanditiis dolorum magni harum repellat, ex veritatis! Saepe corporis numquam beatae?",
   // },
-  {
-    company: "Genpact",
-    designation: "Software Developer Engineer JAVA (SDE)",
-    dateJoining: "31.11.2021",
-    dateEnd: "Present",
-    companyLogo:
-      "https://res.cloudinary.com/cocoder/image/upload/v1638043230/Genpact_Logo_b2ns8l.jpg",
-    workDes: "I am here a dot net Developer",
-  },
+  // {
+  //   company: "Genpact",
+  //   designation: "Software Developer Engineer JAVA (SDE)",
+  //   dateJoining: "31.11.2021",
+  //   dateEnd: "Present",
+  //   companyLogo:
+  //     "https://res.cloudinary.com/cocoder/image/upload/v1638043230/Genpact_Logo_b2ns8l.jpg",
+  //   workDes: "I am here a dot net Developer",
+  // },
 ];

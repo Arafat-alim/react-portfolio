@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
                   src="https://cdn-icons-png.flaticon.com/512/52/52349.png"
                   alt=""
                 />
-                Demo
+                Visit
               </div>
             </a>
           )}
@@ -30,7 +30,7 @@ const ProjectCard = ({ project }) => {
                   src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                   alt=""
                 />
-                GitHub
+                GitHub Links
               </div>
             </a>
           )}

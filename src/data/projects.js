@@ -68,4 +68,24 @@ export const projects = [
     image:
       "https://res.cloudinary.com/cocoder/image/upload/c_scale,h_812,w_1348/v1637952989/Amazon-Product-Page_gubtxe.png",
   },
+  {
+    id: 6,
+    title: "Kordz - The Music Player",
+    desc: "📌A React Web Application, named Kordz - The Music Player Application.📌Feature: The end-user can play their favorite listed songs on their favorite platform like PC, Mobile, TV, etc. Feel the High-Quality Music on your Finger Tips.📌Role: Developer  ",
+    tags: ["HTML5", "CSS", "ReactJs", "Javascript", "SASS"],
+    demoLink: "https://melody-node.netlify.app/",
+    githubLink: "https://github.com/Arafat-alim/music-player",
+    image:
+      "https://res.cloudinary.com/cocoder/image/upload/v1664185905/music_app_j6vcmx.png",
+  },
+  {
+    id: 7,
+    title: "Tenzies - The Game of Luck",
+    desc: "📌A React Game Application, named Tenzies - The Game of Luck.📌Feature: The single-player/Multi-player(Beta) Game application, the nostalgic game for 90s Children and new generation Children.📌Role: Developer | Tech Stack: ReactJs, HTML, CSS, Javascript.",
+    tags: ["HTML5", "CSS", "ReactJs", "Javascript"],
+    demoLink: "https://arafat-tenzies-game.netlify.app/",
+    githubLink: "https://github.com/Arafat-alim/tenzies-app",
+    image:
+      "https://res.cloudinary.com/cocoder/image/upload/v1664186706/tenz.app_uo46yr.png",
+  },
 ];

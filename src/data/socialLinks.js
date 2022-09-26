@@ -24,4 +24,9 @@ export const socialLinks = [
     icon: require("../assets/linkedin.png").default,
     link: "https://www.linkedin.com/in/arafat-alim/",
   },
+  {
+    platform: "New Portfolio",
+    icon: require("../assets/new.png").default,
+    link: "https://arafat-alim.github.io/static-repository/",
+  },
 ];

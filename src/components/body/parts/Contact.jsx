@@ -10,12 +10,9 @@ const Contact = () => {
           <p>Want to get Touch? Contact me on these Platform</p>
           <SocialContact />
         </div>
-        {/* 
 
-        
         <div className="download">
-          // <a href={require("../../../assets/Resume.pdf").default} download></a>
-          <a href="/" download>
+          <a href={require("../../../assets/Resume.pdf").default} download>
             <img
               src="https://cdn-icons-png.flaticon.com/512/724/724933.png"
               alt="download-logo"
@@ -23,8 +20,8 @@ const Contact = () => {
             />
             Download Resume
           </a>
+          {/* <a href="/" download></a> */}
         </div>
-         */}
       </div>
     </div>
   );

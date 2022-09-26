@@ -43,6 +43,21 @@ function Web() {
           Contact
         </a>
       </div>
+      <div className="web-option">
+        <a
+          href="https://arafat-alim.github.io/static-repository/"
+          className="option-icon"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2048/2048844.png"
+            alt="contact"
+            className="option-icon"
+          />
+          Go!
+        </a>
+      </div>
     </div>
   );
 }

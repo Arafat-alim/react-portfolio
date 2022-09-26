@@ -17,10 +17,12 @@
 .about-info {
   font-size: 24px;
 }
+
 .info-name {
   color: red;
   font-weight: 650;
 }
+
 .coding-boy {
   height: 550px;
 }
@@ -31,13 +33,16 @@
     justify-content: center;
     align-items: center;
   }
+
   .coding-boy {
     height: 350px;
   }
+
   .about-info {
     font-size: 20px;
     /* margin: 0 24px; */
   }
+
   .info-name {
     font-size: 22px;
   }
@@ -58,10 +63,12 @@
   margin: 16px 0;
   padding: 8px 0;
 }
+
 .project-image {
   width: auto;
   height: 300px;
 }
+
 .project-info {
   margin-right: 20px;
 }
@@ -70,11 +77,13 @@
   font-size: 20px;
   font-weight: 600;
 }
+
 .project-tags {
   display: flex;
   max-width: 80%;
   flex-wrap: wrap;
 }
+
 .tag {
   background-color: aquamarine;
   border-radius: 5px;
@@ -82,6 +91,7 @@
   margin-bottom: 4px;
   padding: 4px 8px;
 }
+
 .tag:hover {
   color: #000;
   background-color: rgb(7, 214, 145);
@@ -97,6 +107,7 @@
   text-decoration: none;
   color: #000;
 }
+
 .link-button {
   display: flex;
   justify-content: center;
@@ -108,6 +119,7 @@
   padding: 4px 8px;
   font-size: 1rem;
 }
+
 .link-button img {
   display: flex;
   align-items: center;
@@ -124,14 +136,17 @@
     height: auto;
     margin: 10px;
   }
+
   .project-card {
     display: flex;
     flex-direction: column-reverse;
   }
+
   .project-info {
     margin-left: 0;
     margin-top: 12px;
   }
+
   .project-tags {
     max-width: 100%;
   }
@@ -155,20 +170,24 @@
 .skill-icon {
   font-size: 80px;
 }
+
 .skill-icon-size {
   width: 80px;
   height: auto;
   cursor: pointer;
 }
+
 .skill-name {
   font-size: 18px;
 }
+
 @media only screen and (max-width: 720px) {
   .skill-card {
     width: max-content;
     height: 100px;
     margin: 0;
   }
+
   .skill-icon-size {
     width: 60px;
   }
@@ -179,6 +198,7 @@
   flex-direction: column;
   width: 100%;
 }
+
 .skills-section {
   display: flex;
   justify-content: space-between;
@@ -202,6 +222,7 @@
     max-width: 70%;
     justify-content: center;
   }
+
   .skills-section {
     flex-direction: column;
     align-items: center;
@@ -217,6 +238,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .work-logo {
   height: 80px;
 }
@@ -226,6 +248,7 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
 .work-dates {
   color: grey;
 }
@@ -240,6 +263,17 @@
   max-width: 80%;
 }
 
+.cert-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+}
+
+.cert-link:hover {
+
+  color: rgb(71, 71, 71);
+}
+
 @media only screen and (max-width: 720px) {
   .work-card {
     width: 100%;
@@ -251,6 +285,7 @@
   flex-direction: column;
   width: 100%;
 }
+
 .work-list {
   display: flex;
   flex-wrap: wrap;
@@ -301,9 +336,11 @@
   color: #000;
   font-weight: 650;
 }
+
 .download:hover {
   background: salmon;
 }
+
 /* .download a:hover {
   color: aliceblue;
 } */
@@ -317,11 +354,13 @@
     justify-content: center;
     align-items: center;
   }
+
   .contact-left {
     width: 100%;
     font-size: 16px;
     margin-bottom: 12px;
   }
+
   .download {
     font-size: 16px;
   }

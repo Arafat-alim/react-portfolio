@@ -7,7 +7,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="header">
-      <div className="logo">NeckReact</div>
+      <div className="logo">{"<dev.arafat/>"}</div>
       <div className="menu">
         <div className="web-menu">
           <Web />

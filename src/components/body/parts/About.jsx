@@ -6,10 +6,10 @@ const About = () => {
     <div className="about">
       <div className="about-top">
         <div className="about-info">
-          Hello There 👋 I am
-          <br />
-          <span className="info-name">Arafat Alim!</span>
-          <br />I love experimenting with the web
+          Hi! There 👋 Welcome to My Profile. I am
+          {/* <br /> */}
+          <span className="info-name"> Arafat Alim!</span> I love experimenting
+          with the Web
         </div>
         <div className="about-photo">
           <img
